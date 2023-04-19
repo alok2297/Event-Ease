@@ -194,3 +194,50 @@ input{
   font-family: sans-serif;
   font-size: 14px;
 }
+
+.Continue-with-text{
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+.other-logins{
+  display: flex;
+  justify-content: space-between;
+  font-family: proxima-nova, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.social-icons-fb {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 2px;
+    margin-right: 20px;
+}
+.social-icons-google{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 2px;
+}
+
+.facebook-login {
+  padding-top: 16px;
+  padding-left: 15px;
+}
+.google-login{
+  padding-top: 16px;
+  padding-left: 15px;
+}
