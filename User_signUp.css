@@ -241,3 +241,15 @@ input{
   padding-top: 16px;
   padding-left: 15px;
 }
+
+
+.ContinueBtn{
+  margin-top: 40px;
+  width: 100%;
+  color: #fff;
+  background-color: rgb(229 47 119);
+  height: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+}

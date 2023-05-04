@@ -10,8 +10,22 @@ inputField.addEventListener("keyup",function(){
         content3.style.display="none";
     }
     else{
-        content1.style.display="block";
+        content1.style.display="flex";
         content2.style.display="block";
-        content3.style.display="block";
+        content3.style.display="flex";
     }
 });
+
+let button = document.querySelector(".ContinueBtn");
+
+button.style.display = "none"; //setting button state to disabled
+
+inputField.addEventListener("change", function(){
+    if (document.querySelector(".inputField").value == "") {
+        button.style.display="none";
+    } else {
+        button.style.display="block";
+    }
+});
+
+
