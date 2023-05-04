@@ -20,8 +20,8 @@ let button = document.querySelector(".ContinueBtn");
 
 button.style.display = "none"; //setting button state to disabled
 
-inputField.addEventListener("change", function(){
-    if (document.querySelector(".inputField").value == "") {
+inputField.addEventListener("input", function(){
+    if (inputField.value == "") {
         button.style.display="none";
     } else {
         button.style.display="block";
