@@ -81,5 +81,24 @@ body{
 }
 .btn{
     position: relative;
+    width: 5200px;
 }
-
+.one-box-for-slider{
+    .gallery-to-look-for{
+        display: flex;
+        background-color: #FBFBFB;
+        padding: 10px;
+        overflow: scroll;
+        white-space: nowrap;
+        align-content: center; 
+      scrollbar-width: none;  
+        
+    }
+    
+    .gallery-to-look-for::-webkit-scrollbar{
+        display: none;
+    }
+}
+.venue-slider{
+    overflow: hidden;
+}
