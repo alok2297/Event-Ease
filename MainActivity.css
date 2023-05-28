@@ -1,0 +1,85 @@
+.bridaloutfit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.popularvenue{
+    font-family: proxima-nova,sans-serif;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-weight: 600;
+    width: 90%;
+    font-size: 22px;
+    color: #5a5a5a;
+}
+.venue-container {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    max-width: 90%
+}
+.one-box-for-slider{
+    width: 400px;
+    height: 140px;
+    display: flex;
+}
+.box-of-image{
+    display: flex;
+}
+.box-of-image img{
+    width: 180px;
+    height: 120px;
+    border-radius: 5px;
+} 
+.text-main{
+    margin-left: 20px;
+    width: 220px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.star-hotels{
+    size: 20px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+.uppertwo{
+    flex-direction: row;
+    display: flex;
+}
+.city-for-hotels{
+    color: #e72e77;
+    line-height: 21px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.city{
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.margin-r-5 {
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    line-height: 26px;
+    font-weight: 400;
+}
+.button-left{
+    width: 25px;
+    height: 25px;
+    align-items: self-start;
+}
+.btn{
+    position: relative;
+}
+
