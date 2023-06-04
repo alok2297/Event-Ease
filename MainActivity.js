@@ -1,14 +1,24 @@
-var slideIndex = 1;
-showDivs(slideIndex);
+var button = document.querySelector('.swiper-button-next');
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+// Set the desired height and width
+button.style.height = '30px';
+button.style.width = '10px';
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  x[slideIndex-1].style.display = "block";  
-}
+var swiper = new Swiper(".card_slider", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+var swiper = new Swiper(".popular_slider", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
