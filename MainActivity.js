@@ -4,7 +4,7 @@ var button = document.querySelector('.swiper-button-next');
 button.style.height = '30px';
 button.style.width = '10px';
 
-var swiper = new Swiper(".card_slider", {
+var outerSlider = new Swiper(".card_slider", {
   slidesPerView: 3,
   spaceBetween: 30,
   navigation: {
@@ -13,10 +13,9 @@ var swiper = new Swiper(".card_slider", {
   },
 });
 
-
-var swiper = new Swiper(".popular_slider", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+var innerSlider = new Swiper(".popular_slider", {
+  slidesPerView: 4,
+  spaceBetween: 35,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

@@ -87,9 +87,9 @@ body{
     color: #4a4a4a;
 }
 
-.popular-search-image img{
+.each-side {
     width: 240px;
-    height: 306px;
+    height: 260px;
     border-radius: 7px;
 }
 .middle-container{
@@ -100,7 +100,15 @@ body{
     width: 90%;
     color: #4a4a4a;
 }
-.popular-search-image{
+
+img{
+    height: 306px;
     width: 240px;
+    border-radius: 10px;
+
 }
 
+p{
+    font-size: 15px;
+    align-content: center start;
+}
