@@ -14,7 +14,7 @@ var outerSlider = new Swiper(".card_slider", {
 });
 
 var innerSlider = new Swiper(".popular_slider", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   spaceBetween: 35,
   navigation: {
     nextEl: ".swiper-button-next",

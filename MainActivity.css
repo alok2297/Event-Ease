@@ -87,28 +87,46 @@ body{
     color: #4a4a4a;
 }
 
-.each-side {
-    width: 240px;
-    height: 260px;
-    border-radius: 7px;
-}
+
 .middle-container{
     font-family: proxima-nova,sans-serif;
     margin-top: 20px;
-    height: 340px;
+    height: 300px;
     margin-left: 5%;
     width: 90%;
     color: #4a4a4a;
 }
-
-img{
-    height: 306px;
-    width: 240px;
-    border-radius: 10px;
-
-}
-
 p{
     font-size: 15px;
     align-content: center start;
 }
+
+  .container-img {
+    position: relative;
+    overflow: hidden;
+    width: 240px; /* Adjust the width as needed */
+    height: 260px; /* Adjust the height as needed */
+  }
+  
+  .container-img img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .container-img:hover img {
+    transform: scale(1.3); /* Adjust the scale factor as needed for the desired zoom level */
+  }
+  
+  .container-img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+ 
+  
