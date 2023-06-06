@@ -196,8 +196,6 @@ p{
     margin-right: auto;
     display: flex;
 }
-
-
 .text_div{
     height: 120px;
     width: 340px;
@@ -212,7 +210,7 @@ p{
 }
 .text_div_container{
     width: 250px;
-    margin: 30 25;
+    padding: 30 25;
 }
 
 .text_div_first{
@@ -229,5 +227,89 @@ p{
     color: #4a4a4a;
 }
 
- 
+.VMG_Services{
+    font-family: proxima-nova,sans-serif;
+    margin-top: 90px;
+    margin-left: 5%;
+    font-weight: 600;
+    width: 90%;
+    font-size: 22px;
+    color: #4a4a4a;
+}
+
+.Three-Services{
+    width: 90%;
+    margin-left: 5%;
+}
+.Pair_two_Services{
+    margin-top: 20px;
+    display: flex;
+}
+.First_Contianer_Service{
+    width: 590px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 0px;
+    overflow: hidden;
+}
+.Second_Contianer_Service{
+    width: 590px;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px 0px;
+    overflow: hidden;
+}
+.Wedsta_img{
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 570px;
+    height: 200px;
+    object-fit: cover;
+}
+.Wedsta_txt{
+    width: 570px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: proxima-nova,sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #4a4a4a;
+    font-weight: 600;
+    display: flex;
+}
+
+.Wedsta_Second_txt{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: proxima-nova,sans-serif;
+    color: #4a4a4a;
+    display: flex;
+    width: 570px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.Know_more{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: proxima-nova,sans-serif;
+    color: #e72e77;
+    background-color: #fff;
+    border: 1px solid #e72e77;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.Button-Know-More{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
   
