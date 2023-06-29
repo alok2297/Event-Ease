@@ -1,3 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pre_nav {
+    display: flex;
+    background-color: #b4245d;
+    height: 40px;
+}
+
+.pre_nav_content {
+    display: flex;
+    padding: 10px;
+    width: 65%;
+}
+
+.pre_nav_text {
+    padding-left: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* pre nav dropdown */
+
+.dropdown {
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 10px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    margin-left: 10%;
+    display: none;
+    position: absolute;
+    background-color: #dddddd;
+    width: 80%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content .header {
+    background: #b4245d;
+    padding: 16px;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px 10px;
+    background-color: rgb(236, 236, 236);
+    height: 350px;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 7px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover {
+    background-color: #f0f0f0;
+    font-weight: 600;
+    color: #e72e77
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* pre nav icon srction */
+.pre_nav_icon {
+    display: flex;
+    padding: 10px;
+    width: 35%;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.pre_nav_review {
+    display: flex;
+}
+
+.pre_nav_review p {
+    margin-right: 5px;
+}
+
+.pre_nav_app {
+    display: flex;
+}
+
+.pre_nav_app p {
+    margin-right: 5px;
+}
+
+/*=================== Navbar Section Start======================== */
+nav {
+    display: flex;
+    height: 50px;
+    background-color: #e72e77;
+}
+
+.navbar_logo {
+    font-size: 1.5rem;
+    color: white;
+    width: 15%;
+    padding: .5rem 0rem 0rem 3.5rem;
+}
+
+.navbar_menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding: .9rem 0rem 0rem 2.5rem;
+    font-size: 17px;
+
+}
+
+.nav_venue_img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav_venue_text {
+    margin: 20px 0px 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav_venue_card1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.nav_venue_card1 img {
+    border-radius: 10px;
+}
+
+
+.nav_venue_card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_venue_card2 .cards {
+    border-radius: 10px;
+}
+
+
+
+/* ==============Hero Section============= */
+.hero {
+    height: 500px;
+    background-image: url("new111.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero_content {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.336) 49%, rgb(0, 0, 0));
+}
+
+.hero_content p {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+}
+.hero_content .hero_content_text{
+    font-size: 20px;
+}
+
+/* =========================== hero Section Search=========================*/
+
+.hero_sec_dropdown {
+width:100%;
+height:40px;
+padding-top: 10px;
+padding-left:300px;
+
+
+}
+
+
+.hero_sec_dropdown input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 65%;
+    height:45px;
+    border: none;
+}
+
+.hero_sec_dropdown button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color:#e72e77;
+    height:45px;
+    border: none;
+    width: 100px;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    width: 682px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+ 
+
+ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+
 .bridaloutfit{
     display: block;
     margin-left: auto;
@@ -210,7 +477,6 @@ p{
     object-fit: cover;
 }
 .text_div_container{
-    width: 250px;
     padding: 30 25;
 }
 

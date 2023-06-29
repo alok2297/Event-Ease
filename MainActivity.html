@@ -4,10 +4,466 @@
         <title>Plan a Event in your Favourite City</title>
         <link rel="stylesheet" href="MainActivity.css">
 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Google Font  -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     </head>
     <body>
+
+
+         <div class="main">
+
+        <!-- ============ Pre Navbar Start ============ -->
+
+        <div class="pre_nav">
+
+            <div class="pre_nav_content">
+
+                <!--   pre navbar text area -->
+
+                <div class="pre_nav_text">
+                    <p>India's Favourite Wedding Planning Platform
+                    </p>
+                </div>
+
+                <!-- pre navbar dropdown start -->
+
+                <div class="dropdown">
+                    <button class="dropbtn">All Cities
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+
+                    <div class="dropdown-content" id="myDropdown">
+                        <div class="header">
+                            <h2>Cities</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h3>Top Cities</h3>
+                                <a href="#">All Cities</a>
+                                <a href="#">Delhi NCR</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Bangalor</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                                <a href="#">Kolkata</a>
+                                <a href="#">Lucknow</a>
+                                <a href="#">Jaipur</a>
+                            </div>
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+                                <a href="#">Kochi</a>
+                            </div>
+                            <div class="column">
+                                <h3>Other Cities</h3>
+                                <a href="#">Nagpur</a>
+                                <a href="#">Dehradun</a>
+                                <a href="#">Thane</a>
+                                <a href="#">Surat</a>
+                                <a href="#">Vadodara</a>
+                                <a href="#">Visakhapatnam</a>
+                                <a href="#">Bhubneswar</a>
+                                <a href="#">Raipur</a>
+                                <a href="#">Coimbatore</a>
+                                <a href="#">Jalandhar</a>
+                            </div>
+                            <div class="column">
+                                <h3>International Cities</h3>
+                                <a href="#">Chicago</a>
+                                <a href="#">New York</a>
+                                <a href="#">New Jersey</a>
+                                <a href="#">Houston</a>
+                                <a href="#">Washington</a>
+                                <a href="#">Arizona</a>
+                                <a href="#">Dubai</a>
+                                <a href="#">Thailand</a>
+                                <a href="#">USA</a>
+                                <a href="#">Canada</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-- pre nav dropdown end -->
+            </div>
+
+            <!-- per nav icon section Start -->
+            <div class="pre_nav_icon">
+
+                <div class="pre_nav_review">
+                    <p> Write a Review</p>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </div>
+
+                <div class="pre_nav_app">
+                    <p> Download App</p>
+                    <i class="fa-solid fa-download"></i>
+                </div>
+
+            </div>
+
+            <!-- per nav icon section Start -->
+
+        </div>
+
+        <!-- ================================== navbar Start================================= -->
+
+        <nav>
+
+            <div class="navbar_logo">
+                <p>logo.io</p>
+
+            </div>
+            <!--  Navbar Logo Secton  End-->
+
+
+            <!--  Navbar Menu Section  Start-->
+            <div class="navbar_menu">
+                <div class="dropdown">
+                    <button class="dropbtn">Venue
+
+                    </button>
+
+                    <div class="dropdown-content" id="nav_venue">
+                        <div class="header">
+                            <h2>Cities</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h3>Top Cities</h3>
+                                <a href="#">All Cities</a>
+                                <a href="#">Delhi NCR</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Bangalor</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                                <a href="#">Kolkata</a>
+                                <a href="#">Lucknow</a>
+
+                            </div>
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+
+                            </div>
+                            <div class="nav_venue_img">
+                                <p class="nav_venue_text"> Destination Wedding Venues</p>
+                                <div class="nav_venue_card1">
+                                    <img src="card.webp" height="100px" width="140px" class="cards">
+                                    <img src="card2.webp" height="100px" width="140px" class="cards">
+                                    <img src="card3.webp" height="100px" width="140px" class="cards">
+                                </div>
+
+                                <div class="nav_venue_card2">
+                                    <img src="card4.webp" height="100px" width="140px" class="cards">
+                                    <img src="card5.webp" height="100px" width="140px" class="cards">
+                                    <img src="card6.webp" height="100px" width="140px" class="cards">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--  Navbar Menu Section  End-->
+                        <!--  Navbar Menu login Section Strat -->
+                        <div class="navbar_login">
+
+                        </div>
+                        <!--  Navbar Menu login Section End -->
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Vender
+                    </button>
+
+                    <div class="dropdown-content" id="nav_vendors">
+
+                        <div class="row">
+                            <div class="column">
+                                <h3 class="nav_vendors_">Photographer</h3>
+                                <a href="#">Photograph</a>
+                                <a href="#">Cenima/Viedo</a>
+
+
+                            </div>
+
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+
+                            </div>
+                        </div>
+                        <!--  Navbar Menu Section  End-->
+
+                        <!--  Navbar Menu login Section Strat -->
+                        <div class="navbar_login">
+
+                        </div>
+                        <!--  Navbar Menu login Section End -->
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Photos
+
+                    </button>
+
+                    <div class="dropdown-content" id="myDropdown">
+                        <div class="header">
+                            <h2>Cities</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h3>Top Cities</h3>
+                                <a href="#">All Cities</a>
+                                <a href="#">Delhi NCR</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Bangalor</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                                <a href="#">Kolkata</a>
+                                <a href="#">Lucknow</a>
+
+                            </div>
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+
+                            </div>
+                        </div>
+                        <!--  Navbar Menu Section  End-->
+
+                        <!--  Navbar Menu login Section Strat -->
+                        <div class="navbar_login">
+
+                        </div>
+                        <!--  Navbar Menu login Section End -->
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Real Wedding
+
+                    </button>
+
+                    <div class="dropdown-content" id="myDropdown">
+                        <div class="header">
+                            <h2>Cities</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h3>Top Cities</h3>
+                                <a href="#">All Cities</a>
+                                <a href="#">Delhi NCR</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Bangalor</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                                <a href="#">Kolkata</a>
+                                <a href="#">Lucknow</a>
+
+                            </div>
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+
+                            </div>
+                        </div>
+                        <!--  Navbar Menu Section  End-->
+
+                        <!--  Navbar Menu login Section Strat -->
+                        <div class="navbar_login">
+
+                        </div>
+                        <!--  Navbar Menu login Section End -->
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Blog
+
+                    </button>
+
+                    <div class="dropdown-content" id="myDropdown">
+                        <div class="header">
+                            <h2>Cities</h2>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h3>Top Cities</h3>
+                                <a href="#">All Cities</a>
+                                <a href="#">Delhi NCR</a>
+                                <a href="#">Mumbai</a>
+                                <a href="#">Bangalor</a>
+                                <a href="#">Hyderabad</a>
+                                <a href="#">Chennai</a>
+                                <a href="#">Pune</a>
+                                <a href="#">Kolkata</a>
+                                <a href="#">Lucknow</a>
+
+                            </div>
+                            <div class="column">
+                                <h3>Popular Cities</h3>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Goa</a>
+                                <a href="#">Udaipur</a>
+                                <a href="#">Chandighar</a>
+                                <a href="#">Ahemdabad</a>
+                                <a href="#">Indor</a>
+                                <a href="#">Agra</a>
+                                <a href="#">Kanpur</a>
+                                <a href="#">Bhopal</a>
+
+                            </div>
+                        </div>
+
+
+                        <!--  Navbar Menu Section  End-->
+
+                        <!--  Navbar Menu login Section Strat -->
+                        <div class="navbar_login">
+
+                        </div>
+                        <!--  Navbar Menu login Section End -->
+
+                    </div>
+                </div>
+
+
+        </nav>
+
+
+        <!--  ==========================    Hero containt start  =============== -->
+
+
+        <div class="hero">
+            <div class="hero_content">
+                <p>Your Wedding, Your Way</p>
+                <p class="hero_content_text"> Find the best wedding vendors with thousands of trusted reviews</p>
+
+
+                <!-- hero section dropdown searchs -->
+
+                <div class="hero_sec_dropdown">
+                    <input type="text" id="hero_sec_searchInput" placeholder="Search..." class="hero_sec_">
+                    <button onclick="toggleDropdown()">▼ Search</button>
+                    <ul id="hero_sec_dropdownMenu">
+                        <li onclick="selectItem('Mumbai')">Mumbai</li>
+                        <li onclick="selectItem('Delhi')">Delhi</li>
+                        <li onclick="selectItem('Bangalore')">Bangalore</li>
+                        <li onclick="selectItem('Hyderabad')">Hyderabad</li>
+                        <li onclick="selectItem('Ahmedabad')">Ahmedabad</li>
+                        <li onclick="selectItem('Chennai')">Chennai</li>
+                        <li onclick="selectItem('Kolkata')">Kolkata</li>
+                        <li onclick="selectItem('Surat')">Surat</li>
+                        <li onclick="selectItem('Pune')">Pune</li>
+                        <li onclick="selectItem('Jaipur')">Jaipur</li>
+                        <li onclick="selectItem('Lucknow')">Lucknow</li>
+                        <li onclick="selectItem('Kanpur')">Kanpur</li>
+                        <li onclick="selectItem('Nagpur')">Nagpur</li>
+                        <li onclick="selectItem('Indore')">Indore</li>
+                        <li onclick="selectItem('Thane')">Thane</li>
+                        <li onclick="selectItem('Bhopal')">Bhopal</li>
+                        <li onclick="selectItem('Visakhapatnam')">Visakhapatnam</li>
+                        <li onclick="selectItem('Pimpri Chinchwad')">Pimpri Chinchwad</li>
+                        <li onclick="selectItem('Patna')">Patna</li>
+                        <li onclick="selectItem('Vadodara')">Vadodara</li>
+                        <li onclick="selectItem('Ghaziabad')">Ghaziabad</li>
+                        <li onclick="selectItem('Ludhiana')">Ludhiana</li>
+                        <li onclick="selectItem('Agra')">Agra</li>
+                        <li onclick="selectItem('Nashik')">Nashik</li>
+                        <li onclick="selectItem('Ranchi')">Ranchi</li>
+                        <li onclick="selectItem('Faridabad')">Faridabad</li>
+                        <li onclick="selectItem('Meerut')">Meerut</li>
+                        <li onclick="selectItem('Rajkot')">Rajkot</li>
+                        <li onclick="selectItem('Kalyan-Dombivli')">Kalyan-Dombivli</li>
+                        <li onclick="selectItem('Vasai-Virar')">Vasai-Virar</li>
+                        <li onclick="selectItem('Varanasi')">Varanasi</li>
+                        <li onclick="selectItem('Srinagar')">Srinagar</li>
+                        <li onclick="selectItem('Aurangabad')">Aurangabad</li>
+                        <li onclick="selectItem('Dhanbad')">Dhanbad</li>
+                        <li onclick="selectItem('Amritsar')">Amritsar</li>
+                        <li onclick="selectItem('Navi Mumbai')">Navi Mumbai</li>
+                        <li onclick="selectItem('Allahabad')">Allahabad'</li>
+                        <li onclick="selectItem('Howrah')">Howrah</li>
+                        <li onclick="selectItem('Gwalior')">Gwalior</li>
+                        <li onclick="selectItem('Jabalpur')">Jabalpur</li>
+                        <li onclick="selectItem('Coimbatore')">Coimbatore</li>
+                        <li onclick="selectItem('Vijayawada')">Vijayawada</li>
+                        <li onclick="selectItem('Jodhpur')">Jodhpur</li>
+                        <li onclick="selectItem('Madurai')">Madurai</li>
+                        <li onclick="selectItem('Raipur')">Raipur</li>
+                        <li onclick="selectItem('Kota')">Kota</li>
+                        <li onclick="selectItem('Chandigarh')">Chandigarh</li>
+                        <li onclick="selectItem('Guwahati')">Guwahati</li>
+                        <li onclick="selectItem('Solapur')">Solapur</li>
+                        <li onclick="selectItem('Hubli-Dharwad')">Hubli-Dharwad</li>
+                        <li onclick="selectItem('Mysore')">Mysore</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
         <img class="bridaloutfit" src="Pictures/Bridaloutfit.jpg">
         <div class="popvenue">
         <div class="popularvenue">Popular Venue Searches</div>
@@ -229,7 +685,7 @@
                             <div class="text_div">
                                 <div class="text_div_container">
                                     <div class="text_div_first">Venues</div>
-                                    <div class="text_div_second">Banquet Halls, Lawns/Farmhouses,R..</div>
+                                    <div class="text_div_second">Banquet Halls Lawns/Farmhouses,R..</div>
                                 </div>
                             </div>
                     </div>
